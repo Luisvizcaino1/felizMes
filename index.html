@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#02000b">
+  <title>Para ti ❤️</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main id="app">
+    <canvas id="stars"></canvas>
+    <div class="nebula nebula-one"></div>
+    <div class="nebula nebula-two"></div>
+
+    <section id="intro" class="screen active">
+      <div class="intro-content">
+        <p class="eyebrow">Tengo algo que decirte...</p>
+        <h1>Es solo para ti <span>♥</span></h1>
+        <p class="recipient-name">rosmeris castro jimenez</p>
+        <p class="intro-text">Prepárate para viajar un poquito por mi universo...</p>
+        <button id="startBtn">Abrir mi corazón 💗</button>
+      </div>
+    </section>
+
+    <section id="heartScene" class="screen">
+      <div class="universe">
+        <div class="space-vignette"></div>
+        <div id="emojiSpace" aria-hidden="true"></div>
+        <div id="shootingStars" aria-hidden="true"></div>
+
+        <div class="orbit orbit-one"><span>🪐</span></div>
+        <div class="orbit orbit-two"><span>🌎</span></div>
+        <div class="orbit orbit-three"><span>🌙</span></div>
+
+        <div class="universe-center">
+          <div class="big-heart">❤️</div>
+          <p>Mi universo tiene millones de estrellas...</p>
+          <h2>pero solo una eres tú.</h2>
+        </div>
+      </div>
+    </section>
+
+    <section id="message" class="screen">
+      <div class="message-box">
+        <div class="mini-heart">♥</div>
+        <p class="eyebrow">Para ti, <span id="nameOut">mi amor</span></p>
+        <p class="month-message">feliz mes mi princesa</p>
+        <h2>Si pudiera elegir<br>de nuevo...</h2>
+        <p class="love-text">
+          te volvería a elegir a ti, una y mil veces.
+          Gracias por llegar a mi vida, por cada sonrisa,
+          cada momento y por hacer mis días más bonitos.
+        </p>
+        <p class="final-line">Te quiero muchísimo. ❤️</p>
+        <button id="replayBtn">Volver a viajar por el universo ↻</button>
+      </div>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
